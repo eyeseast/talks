@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data journalism, a short introduction</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <link href="css/pig.css" rel="stylesheet" type="text/css" />
+        <script src="js/pig.js"></script>
+
+        <style>
+        img { max-height: 100%; }
+        </style>
+    </head>
+<body>
+    <div class="slide">
+        <ul>
+            <li>1,865.75</li>   <!-- Current S&P 500 -->
+            <li>6.7%</li>   <!-- Current US unemployment rate -->
+            <li>$51,642</li>    <!-- Median household income in Boston -->
+        </ul>
+    </div>
+
+    <div class="slide">
+        
+        <table border="0">
+        <tbody>
+        <tr><th>Date</th><th>S&amp;P 500</th></tr>
+        <tr class="row"><td>3/11/04</td><td>1,106.78</td></tr>
+        <tr class="otherrow"><td>3/12/04</td><td>1,120.57</td></tr>
+        <tr class="row"><td>3/15/04</td><td>1,104.49</td></tr>
+        <tr class="otherrow"><td>3/16/04</td><td>1,110.70</td></tr>
+        <tr class="row"><td>3/17/04</td><td>1,123.75</td></tr>
+        <tr class="otherrow"><td>3/18/04</td><td>1,122.32</td></tr>
+        <tr class="row"><td>3/19/04</td><td>1,109.78</td></tr>
+        <tr class="otherrow"><td>3/22/04</td><td>1,095.40</td></tr>
+        <tr class="row"><td>3/23/04</td><td>1,093.95</td></tr>
+        <tr class="otherrow"><td>3/24/04</td><td>1,091.33</td></tr>
+        <tr class="row"><td>3/25/04</td><td>1,109.19</td></tr>
+        <tr class="otherrow"><td>3/26/04</td><td>1,108.06</td></tr>
+        <tr class="row"><td>3/29/04</td><td>1,122.47</td></tr>
+        <tr class="otherrow"><td>3/30/04</td><td>1,127.00</td></tr>
+        <tr class="row"><td>3/31/04</td><td>1,126.21</td></tr>
+        <tr class="otherrow"><td>4/1/04</td><td>1,132.17</td></tr>
+        <tr class="row"><td>4/2/04</td><td>1,141.81</td></tr>
+        <tr class="otherrow"><td>4/5/04</td><td>1,150.57</td></tr>
+        <tr class="row"><td>4/6/04</td><td>1,148.16</td></tr>
+        <tr class="otherrow"><td>4/7/04</td><td>1,140.53</td></tr>
+        <tr class="row"><td>4/8/04</td><td>1,139.32</td></tr>
+        <tr class="otherrow"><td>4/12/04</td><td>1,145.20</td></tr>
+        <tr class="row"><td>4/13/04</td><td>1,129.44</td></tr>
+        <tr class="otherrow"><td>4/14/04</td><td>1,128.17</td></tr>
+        <tr class="row"><td>4/15/04</td><td>1,128.84</td></tr>
+        <tr class="otherrow"><td>4/16/04</td><td>1,134.61</td></tr>
+        <tr class="row"><td>4/19/04</td><td>1,135.82</td></tr>
+        <tr class="otherrow"><td>4/20/04</td><td>1,118.15</td></tr>
+        <tr class="row"><td>4/21/04</td><td>1,124.09</td></tr>
+        <tr class="otherrow"><td>4/22/04</td><td>1,139.93</td></tr>
+        <tr class="row"><td>4/23/04</td><td>1,140.60</td></tr>
+        <tr class="otherrow"><td>4/26/04</td><td>1,135.53</td></tr>
+        <tr class="row"><td>4/27/04</td><td>1,138.11</td></tr>
+        <tr class="otherrow"><td>4/28/04</td><td>1,122.41</td></tr>
+        <tr class="row"><td>4/29/04</td><td>1,113.89</td></tr>
+        <tr class="otherrow"><td>4/30/04</td><td>1,107.30</td></tr>
+        <tr class="row"><td>5/3/04</td><td>1,117.49</td></tr>
+        <tr class="otherrow"><td>5/4/04</td><td>1,119.55</td></tr>
+        <tr class="row"><td>5/5/04</td><td>1,121.53</td></tr>
+        <tr class="otherrow"><td>5/6/04</td><td>1,113.99</td></tr>
+        <tr class="row"><td>5/7/04</td><td>1,098.70</td></tr>
+        <tr class="otherrow"><td>5/10/04</td><td>1,087.12</td></tr>
+        <tr class="row"><td>5/11/04</td><td>1,095.45</td></tr>
+        <tr class="otherrow"><td>5/12/04</td><td>1,097.28</td></tr>
+        <tr class="row"><td>5/13/04</td><td>1,096.44</td></tr>
+        <tr class="otherrow"><td>5/14/04</td><td>1,095.70</td></tr>
+        <tr class="row"><td>5/17/04</td><td>1,084.10</td></tr>
+        <tr class="otherrow"><td>5/18/04</td><td>1,091.49</td></tr>
+        <tr class="row"><td>5/19/04</td><td>1,088.68</td></tr>
+        <tr class="otherrow"><td>5/20/04</td><td>1,089.19</td></tr>
+        <tr class="row"><td>5/21/04</td><td>1,093.56</td></tr>
+        <tr class="otherrow"><td>5/24/04</td><td>1,095.41</td></tr>
+        <tr class="row"><td>5/25/04</td><td>1,113.05</td></tr>
+        <tr class="otherrow"><td>5/26/04</td><td>1,114.94</td></tr>
+        <tr class="row"><td>5/27/04</td><td>1,121.28</td></tr>
+        <tr class="otherrow"><td>5/28/04</td><td>1,120.68</td></tr>
+        <tr class="row"><td>6/1/04</td><td>1,121.20</td></tr>
+        <tr class="otherrow"><td>6/2/04</td><td>1,124.99</td></tr>
+        <tr class="row"><td>6/3/04</td><td>1,116.64</td></tr>
+        <tr class="otherrow"><td>6/4/04</td><td>1,122.50</td></tr>
+        <tr class="row"><td>6/7/04</td><td>1,140.42</td></tr>
+        <tr class="otherrow"><td>6/8/04</td><td>1,142.18</td></tr>
+        <tr class="row"><td>6/9/04</td><td>1,131.33</td></tr>
+        <tr class="otherrow"><td>6/10/04</td><td>1,136.47</td></tr>
+        <tr class="row"><td>6/14/04</td><td>1,125.29</td></tr>
+        <tr class="otherrow"><td>6/15/04</td><td>1,132.01</td></tr>
+        <tr class="row"><td>6/16/04</td><td>1,133.56</td></tr>
+        <tr class="otherrow"><td>6/17/04</td><td>1,132.05</td></tr>
+        <tr class="row"><td>6/18/04</td><td>1,135.02</td></tr>
+        <tr class="otherrow"><td>6/21/04</td><td>1,130.30</td></tr>
+        <tr class="row"><td>6/22/04</td><td>1,134.41</td></tr>
+        <tr class="otherrow"><td>6/23/04</td><td>1,144.06</td></tr>
+        <tr class="row"><td>6/24/04</td><td>1,140.65</td></tr>
+        <tr class="otherrow"><td>6/25/04</td><td>1,134.43</td></tr>
+        <tr class="row"><td>6/28/04</td><td>1,133.35</td></tr>
+        <tr class="otherrow"><td>6/29/04</td><td>1,136.20</td></tr>
+        <tr class="row"><td>6/30/04</td><td>1,140.84</td></tr>
+        <tr class="otherrow"><td>7/1/04</td><td>1,128.94</td></tr>
+        <tr class="row"><td>7/2/04</td><td>1,125.38</td></tr>
+        <tr class="otherrow"><td>7/6/04</td><td>1,116.21</td></tr>
+        <tr class="row"><td>7/7/04</td><td>1,118.33</td></tr>
+        <tr class="otherrow"><td>7/8/04</td><td>1,109.11</td></tr>
+        <tr class="row"><td>7/9/04</td><td>1,112.81</td></tr>
+        <tr class="otherrow"><td>7/12/04</td><td>1,114.35</td></tr>
+        <tr class="row"><td>7/13/04</td><td>1,115.14</td></tr>
+        <tr class="otherrow"><td>7/14/04</td><td>1,111.47</td></tr>
+        <tr class="row"><td>7/15/04</td><td>1,106.69</td></tr>
+        <tr class="otherrow"><td>7/16/04</td><td>1,101.39</td></tr>
+        <tr class="row"><td>7/19/04</td><td>1,100.90</td></tr>
+        <tr class="otherrow"><td>7/20/04</td><td>1,108.67</td></tr>
+        <tr class="row"><td>7/21/04</td><td>1,093.88</td></tr>
+        <tr class="otherrow"><td>7/22/04</td><td>1,096.84</td></tr>
+        <tr class="row"><td>7/23/04</td><td>1,086.20</td></tr>
+        <tr class="otherrow"><td>7/26/04</td><td>1,084.07</td></tr>
+        <tr class="row"><td>7/27/04</td><td>1,094.83</td></tr>
+        <tr class="otherrow"><td>7/28/04</td><td>1,095.42</td></tr>
+        <tr class="row"><td>7/29/04</td><td>1,100.43</td></tr>
+        <tr class="otherrow"><td>7/30/04</td><td>1,101.72</td></tr>
+        <tr class="row"><td>8/2/04</td><td>1,106.62</td></tr>
+        <tr class="otherrow"><td>8/3/04</td><td>1,099.69</td></tr>
+        <tr class="row"><td>8/4/04</td><td>1,098.63</td></tr>
+        <tr class="otherrow"><td>8/5/04</td><td>1,080.70</td></tr>
+        <tr class="row"><td>8/6/04</td><td>1,063.97</td></tr>
+        <tr class="otherrow"><td>8/9/04</td><td>1,065.22</td></tr>
+        <tr class="row"><td>8/10/04</td><td>1,079.04</td></tr>
+        <tr class="otherrow"><td>8/11/04</td><td>1,075.79</td></tr>
+        <tr class="row"><td>8/12/04</td><td>1,063.23</td></tr>
+        <tr class="otherrow"><td>8/13/04</td><td>1,064.80</td></tr>
+        <tr class="row"><td>8/16/04</td><td>1,079.34</td></tr>
+        <tr class="otherrow"><td>8/17/04</td><td>1,081.71</td></tr>
+        <tr class="row"><td>8/18/04</td><td>1,095.17</td></tr>
+        <tr class="otherrow"><td>8/19/04</td><td>1,091.23</td></tr>
+        <tr class="row"><td>8/20/04</td><td>1,098.35</td></tr>
+        <tr class="otherrow"><td>8/23/04</td><td>1,095.68</td></tr>
+        <tr class="row"><td>8/24/04</td><td>1,096.19</td></tr>
+        <tr class="otherrow"><td>8/25/04</td><td>1,104.96</td></tr>
+        <tr class="row"><td>8/26/04</td><td>1,105.09</td></tr>
+        <tr class="otherrow"><td>8/27/04</td><td>1,107.77</td></tr>
+        <tr class="row"><td>8/30/04</td><td>1,099.15</td></tr>
+        <tr class="otherrow"><td>8/31/04</td><td>1,104.24</td></tr>
+        <tr class="row"><td>9/1/04</td><td>1,105.91</td></tr>
+        <tr class="otherrow"><td>9/2/04</td><td>1,118.31</td></tr>
+        <tr class="row"><td>9/3/04</td><td>1,113.63</td></tr>
+        <tr class="otherrow"><td>9/7/04</td><td>1,121.30</td></tr>
+        <tr class="row"><td>9/8/04</td><td>1,116.27</td></tr>
+        <tr class="otherrow"><td>9/9/04</td><td>1,118.38</td></tr>
+        <tr class="row"><td>9/10/04</td><td>1,123.92</td></tr>
+        <tr class="otherrow"><td>9/13/04</td><td>1,125.82</td></tr>
+        <tr class="row"><td>9/14/04</td><td>1,128.33</td></tr>
+        <tr class="otherrow"><td>9/15/04</td><td>1,120.37</td></tr>
+        <tr class="row"><td>9/16/04</td><td>1,123.50</td></tr>
+        <tr class="otherrow"><td>9/17/04</td><td>1,128.55</td></tr>
+        <tr class="row"><td>9/20/04</td><td>1,122.20</td></tr>
+        <tr class="otherrow"><td>9/21/04</td><td>1,129.30</td></tr>
+        <tr class="row"><td>9/22/04</td><td>1,113.56</td></tr>
+        <tr class="otherrow"><td>9/23/04</td><td>1,108.36</td></tr>
+        <tr class="row"><td>9/24/04</td><td>1,110.11</td></tr>
+        <tr class="otherrow"><td>9/27/04</td><td>1,103.52</td></tr>
+        <tr class="row"><td>9/28/04</td><td>1,110.06</td></tr>
+        <tr class="otherrow"><td>9/29/04</td><td>1,114.80</td></tr>
+        <tr class="row"><td>9/30/04</td><td>1,114.58</td></tr>
+        <tr class="otherrow"><td>10/1/04</td><td>1,131.50</td></tr>
+        <tr class="row"><td>10/4/04</td><td>1,135.17</td></tr>
+        <tr class="otherrow"><td>10/5/04</td><td>1,134.48</td></tr>
+        <tr class="row"><td>10/6/04</td><td>1,142.05</td></tr>
+        <tr class="otherrow"><td>10/7/04</td><td>1,130.65</td></tr>
+        <tr class="row"><td>10/8/04</td><td>1,122.14</td></tr>
+        <tr class="otherrow"><td>10/11/04</td><td>1,124.39</td></tr>
+        <tr class="row"><td>10/12/04</td><td>1,121.84</td></tr>
+        <tr class="otherrow"><td>10/13/04</td><td>1,113.65</td></tr>
+        <tr class="row"><td>10/14/04</td><td>1,103.29</td></tr>
+        <tr class="otherrow"><td>10/15/04</td><td>1,108.20</td></tr>
+        <tr class="row"><td>10/18/04</td><td>1,114.02</td></tr>
+        <tr class="otherrow"><td>10/19/04</td><td>1,103.23</td></tr>
+        <tr class="row"><td>10/20/04</td><td>1,103.66</td></tr>
+        <tr class="otherrow"><td>10/21/04</td><td>1,106.49</td></tr>
+        <tr class="row"><td>10/22/04</td><td>1,095.74</td></tr>
+        <tr class="otherrow"><td>10/25/04</td><td>1,094.81</td></tr>
+        <tr class="row"><td>10/26/04</td><td>1,111.09</td></tr>
+        <tr class="otherrow"><td>10/27/04</td><td>1,125.40</td></tr>
+        <tr class="row"><td>10/28/04</td><td>1,127.44</td></tr>
+        <tr class="otherrow"><td>10/29/04</td><td>1,130.20</td></tr>
+        <tr class="row"><td>11/1/04</td><td>1,130.51</td></tr>
+        <tr class="otherrow"><td>11/2/04</td><td>1,130.54</td></tr>
+        <tr class="row"><td>11/3/04</td><td>1,143.20</td></tr>
+        <tr class="otherrow"><td>11/4/04</td><td>1,161.67</td></tr>
+        <tr class="row"><td>11/5/04</td><td>1,166.17</td></tr>
+        <tr class="otherrow"><td>11/8/04</td><td>1,164.89</td></tr>
+        <tr class="row"><td>11/9/04</td><td>1,164.08</td></tr>
+        <tr class="otherrow"><td>11/10/04</td><td>1,162.91</td></tr>
+        <tr class="row"><td>11/11/04</td><td>1,173.48</td></tr>
+        <tr class="otherrow"><td>11/12/04</td><td>1,184.17</td></tr>
+        <tr class="row"><td>11/15/04</td><td>1,183.81</td></tr>
+        <tr class="otherrow"><td>11/16/04</td><td>1,175.43</td></tr>
+        <tr class="row"><td>11/17/04</td><td>1,181.94</td></tr>
+        <tr class="otherrow"><td>11/18/04</td><td>1,183.55</td></tr>
+        <tr class="row"><td>11/19/04</td><td>1,170.34</td></tr>
+        <tr class="otherrow"><td>11/22/04</td><td>1,177.24</td></tr>
+        <tr class="row"><td>11/23/04</td><td>1,176.94</td></tr>
+        <tr class="otherrow"><td>11/24/04</td><td>1,181.76</td></tr>
+        <tr class="row"><td>11/26/04</td><td>1,182.65</td></tr>
+        <tr class="otherrow"><td>11/29/04</td><td>1,178.57</td></tr>
+        <tr class="row"><td>11/30/04</td><td>1,173.82</td></tr>
+        <tr class="otherrow"><td>12/1/04</td><td>1,191.37</td></tr>
+        <tr class="row"><td>12/2/04</td><td>1,190.33</td></tr>
+        <tr class="otherrow"><td>12/3/04</td><td>1,191.17</td></tr>
+        <tr class="row"><td>12/6/04</td><td>1,190.25</td></tr>
+        <tr class="otherrow"><td>12/7/04</td><td>1,177.07</td></tr>
+        <tr class="row"><td>12/8/04</td><td>1,182.81</td></tr>
+        <tr class="otherrow"><td>12/9/04</td><td>1,189.24</td></tr>
+        <tr class="row"><td>12/10/04</td><td>1,188.00</td></tr>
+        <tr class="otherrow"><td>12/13/04</td><td>1,198.68</td></tr>
+        <tr class="row"><td>12/14/04</td><td>1,203.38</td></tr>
+        <tr class="otherrow"><td>12/15/04</td><td>1,205.72</td></tr>
+        <tr class="row"><td>12/16/04</td><td>1,203.21</td></tr>
+        <tr class="otherrow"><td>12/17/04</td><td>1,194.22</td></tr>
+        <tr class="row"><td>12/20/04</td><td>1,194.65</td></tr>
+        <tr class="otherrow"><td>12/21/04</td><td>1,205.45</td></tr>
+        <tr class="row"><td>12/22/04</td><td>1,209.57</td></tr>
+        <tr class="otherrow"><td>12/23/04</td><td>1,210.13</td></tr>
+        <tr class="row"><td>12/27/04</td><td>1,204.92</td></tr>
+        <tr class="otherrow"><td>12/28/04</td><td>1,213.54</td></tr>
+        <tr class="row"><td>12/29/04</td><td>1,213.45</td></tr>
+        <tr class="otherrow"><td>12/30/04</td><td>1,213.55</td></tr>
+        <tr class="row"><td>12/31/04</td><td>1,211.92</td></tr>
+        <tr class="otherrow"><td>1/3/05</td><td>1,202.08</td></tr>
+        <tr class="row"><td>1/4/05</td><td>1,188.05</td></tr>
+        <tr class="otherrow"><td>1/5/05</td><td>1,183.74</td></tr>
+        <tr class="row"><td>1/6/05</td><td>1,187.89</td></tr>
+        <tr class="otherrow"><td>1/7/05</td><td>1,186.19</td></tr>
+        <tr class="row"><td>1/10/05</td><td>1,190.25</td></tr>
+        <tr class="otherrow"><td>1/11/05</td><td>1,182.99</td></tr>
+        <tr class="row"><td>1/12/05</td><td>1,187.70</td></tr>
+        <tr class="otherrow"><td>1/13/05</td><td>1,177.45</td></tr>
+        <tr class="row"><td>1/14/05</td><td>1,184.52</td></tr>
+        <tr class="otherrow"><td>1/18/05</td><td>1,195.98</td></tr>
+        <tr class="row"><td>1/19/05</td><td>1,184.63</td></tr>
+        <tr class="otherrow"><td>1/20/05</td><td>1,175.41</td></tr>
+        <tr class="row"><td>1/21/05</td><td>1,167.87</td></tr>
+        <tr class="otherrow"><td>1/24/05</td><td>1,163.75</td></tr>
+        <tr class="row"><td>1/25/05</td><td>1,168.41</td></tr>
+        <tr class="otherrow"><td>1/26/05</td><td>1,174.07</td></tr>
+        <tr class="row"><td>1/27/05</td><td>1,174.55</td></tr>
+        <tr class="otherrow"><td>1/28/05</td><td>1,171.36</td></tr>
+        <tr class="row"><td>1/31/05</td><td>1,181.27</td></tr>
+        <tr class="otherrow"><td>2/1/05</td><td>1,189.41</td></tr>
+        <tr class="row"><td>2/2/05</td><td>1,193.19</td></tr>
+        <tr class="otherrow"><td>2/3/05</td><td>1,189.89</td></tr>
+        <tr class="row"><td>2/4/05</td><td>1,203.03</td></tr>
+        <tr class="otherrow"><td>2/7/05</td><td>1,201.72</td></tr>
+        <tr class="row"><td>2/8/05</td><td>1,202.30</td></tr>
+        <tr class="otherrow"><td>2/9/05</td><td>1,191.99</td></tr>
+        <tr class="row"><td>2/10/05</td><td>1,197.01</td></tr>
+        <tr class="otherrow"><td>2/11/05</td><td>1,205.30</td></tr>
+        <tr class="row"><td>2/14/05</td><td>1,206.14</td></tr>
+        <tr class="otherrow"><td>2/15/05</td><td>1,210.12</td></tr>
+        <tr class="row"><td>2/16/05</td><td>1,210.34</td></tr>
+        <tr class="otherrow"><td>2/17/05</td><td>1,200.75</td></tr>
+        <tr class="row"><td>2/18/05</td><td>1,201.59</td></tr>
+        <tr class="otherrow"><td>2/22/05</td><td>1,184.16</td></tr>
+        <tr class="row"><td>2/23/05</td><td>1,190.80</td></tr>
+        <tr class="otherrow"><td>2/24/05</td><td>1,200.20</td></tr>
+        <tr class="row"><td>2/25/05</td><td>1,211.37</td></tr>
+        <tr class="otherrow"><td>2/28/05</td><td>1,203.60</td></tr>
+        <tr class="row"><td>3/1/05</td><td>1,210.41</td></tr>
+        <tr class="otherrow"><td>3/2/05</td><td>1,210.08</td></tr>
+        <tr class="row"><td>3/3/05</td><td>1,210.47</td></tr>
+        <tr class="otherrow"><td>3/4/05</td><td>1,222.12</td></tr>
+        <tr class="row"><td>3/7/05</td><td>1,225.31</td></tr>
+        <tr class="otherrow"><td>3/8/05</td><td>1,219.43</td></tr>
+        <tr class="row"><td>3/9/05</td><td>1,207.01</td></tr>
+        <tr class="otherrow"><td>3/10/05</td><td>1,209.25</td></tr>
+        <tr class="row"><td>3/11/05</td><td>1,200.08</td></tr>
+        <tr class="otherrow"><td>3/14/05</td><td>1,206.83</td></tr>
+        <tr class="row"><td>3/15/05</td><td>1,197.75</td></tr>
+        <tr class="otherrow"><td>3/16/05</td><td>1,188.07</td></tr>
+        <tr class="row"><td>3/17/05</td><td>1,190.21</td></tr>
+        <tr class="otherrow"><td>3/18/05</td><td>1,189.65</td></tr>
+        <tr class="row"><td>3/21/05</td><td>1,183.78</td></tr>
+        <tr class="otherrow"><td>3/22/05</td><td>1,171.71</td></tr>
+        <tr class="row"><td>3/23/05</td><td>1,172.53</td></tr>
+        <tr class="otherrow"><td>3/24/05</td><td>1,171.42</td></tr>
+        <tr class="row"><td>3/28/05</td><td>1,174.28</td></tr>
+        <tr class="otherrow"><td>3/29/05</td><td>1,165.36</td></tr>
+        <tr class="row"><td>3/30/05</td><td>1,181.41</td></tr>
+        <tr class="otherrow"><td>3/31/05</td><td>1,180.59</td></tr>
+        <tr class="row"><td>4/1/05</td><td>1,172.92</td></tr>
+        <tr class="otherrow"><td>4/4/05</td><td>1,176.12</td></tr>
+        <tr class="row"><td>4/5/05</td><td>1,181.39</td></tr>
+        <tr class="otherrow"><td>4/6/05</td><td>1,184.07</td></tr>
+        <tr class="row"><td>4/7/05</td><td>1,191.14</td></tr>
+        <tr class="otherrow"><td>4/8/05</td><td>1,181.20</td></tr>
+        <tr class="row"><td>4/11/05</td><td>1,181.21</td></tr>
+        <tr class="otherrow"><td>4/12/05</td><td>1,187.76</td></tr>
+        <tr class="row"><td>4/13/05</td><td>1,173.79</td></tr>
+        <tr class="otherrow"><td>4/14/05</td><td>1,162.05</td></tr>
+        <tr class="row"><td>4/15/05</td><td>1,142.62</td></tr>
+        <tr class="otherrow"><td>4/18/05</td><td>1,145.98</td></tr>
+        <tr class="row"><td>4/19/05</td><td>1,152.78</td></tr>
+        <tr class="otherrow"><td>4/20/05</td><td>1,137.50</td></tr>
+        <tr class="row"><td>4/21/05</td><td>1,159.95</td></tr>
+        <tr class="otherrow"><td>4/22/05</td><td>1,152.12</td></tr>
+        <tr class="row"><td>4/25/05</td><td>1,162.10</td></tr>
+        <tr class="otherrow"><td>4/26/05</td><td>1,151.74</td></tr>
+        <tr class="row"><td>4/27/05</td><td>1,156.38</td></tr>
+        <tr class="otherrow"><td>4/28/05</td><td>1,143.22</td></tr>
+        <tr class="row"><td>4/29/05</td><td>1,156.85</td></tr>
+        <tr class="otherrow"><td>5/2/05</td><td>1,162.16</td></tr>
+        <tr class="row"><td>5/3/05</td><td>1,161.17</td></tr>
+        <tr class="otherrow"><td>5/4/05</td><td>1,175.65</td></tr>
+        <tr class="row"><td>5/5/05</td><td>1,172.63</td></tr>
+        <tr class="otherrow"><td>5/6/05</td><td>1,171.35</td></tr>
+        <tr class="row"><td>5/9/05</td><td>1,178.84</td></tr>
+        <tr class="otherrow"><td>5/10/05</td><td>1,166.22</td></tr>
+        <tr class="row"><td>5/11/05</td><td>1,171.11</td></tr>
+        <tr class="otherrow"><td>5/12/05</td><td>1,159.36</td></tr>
+        <tr class="row"><td>5/13/05</td><td>1,154.05</td></tr>
+        <tr class="otherrow"><td>5/16/05</td><td>1,165.69</td></tr>
+        <tr class="row"><td>5/17/05</td><td>1,173.80</td></tr>
+        <tr class="otherrow"><td>5/18/05</td><td>1,185.56</td></tr>
+        <tr class="row"><td>5/19/05</td><td>1,191.08</td></tr>
+        <tr class="otherrow"><td>5/20/05</td><td>1,189.28</td></tr>
+        <tr class="row"><td>5/23/05</td><td>1,193.86</td></tr>
+        <tr class="otherrow"><td>5/24/05</td><td>1,194.07</td></tr>
+        <tr class="row"><td>5/25/05</td><td>1,190.01</td></tr>
+        <tr class="otherrow"><td>5/26/05</td><td>1,197.62</td></tr>
+        <tr class="row"><td>5/27/05</td><td>1,198.78</td></tr>
+        <tr class="otherrow"><td>5/31/05</td><td>1,191.50</td></tr>
+        <tr class="row"><td>6/1/05</td><td>1,202.27</td></tr>
+        <tr class="otherrow"><td>6/2/05</td><td>1,204.29</td></tr>
+        <tr class="row"><td>6/3/05</td><td>1,196.02</td></tr>
+        <tr class="otherrow"><td>6/6/05</td><td>1,197.51</td></tr>
+        <tr class="row"><td>6/7/05</td><td>1,197.26</td></tr>
+        <tr class="otherrow"><td>6/8/05</td><td>1,194.67</td></tr>
+        <tr class="row"><td>6/9/05</td><td>1,200.93</td></tr>
+        <tr class="otherrow"><td>6/10/05</td><td>1,198.11</td></tr>
+        <tr class="row"><td>6/13/05</td><td>1,200.82</td></tr>
+        <tr class="otherrow"><td>6/14/05</td><td>1,203.91</td></tr>
+        <tr class="row"><td>6/15/05</td><td>1,206.58</td></tr>
+        <tr class="otherrow"><td>6/16/05</td><td>1,210.96</td></tr>
+        <tr class="row"><td>6/17/05</td><td>1,216.96</td></tr>
+        <tr class="otherrow"><td>6/20/05</td><td>1,216.10</td></tr>
+        <tr class="row"><td>6/21/05</td><td>1,213.61</td></tr>
+        <tr class="otherrow"><td>6/22/05</td><td>1,213.88</td></tr>
+        <tr class="row"><td>6/23/05</td><td>1,200.73</td></tr>
+        <tr class="otherrow"><td>6/24/05</td><td>1,191.57</td></tr>
+        <tr class="row"><td>6/27/05</td><td>1,190.69</td></tr>
+        <tr class="otherrow"><td>6/28/05</td><td>1,201.57</td></tr>
+        <tr class="row"><td>6/29/05</td><td>1,199.85</td></tr>
+        <tr class="otherrow"><td>6/30/05</td><td>1,191.33</td></tr>
+        <tr class="row"><td>7/1/05</td><td>1,194.44</td></tr>
+        <tr class="otherrow"><td>7/5/05</td><td>1,204.99</td></tr>
+        <tr class="row"><td>7/6/05</td><td>1,194.94</td></tr>
+        <tr class="otherrow"><td>7/7/05</td><td>1,197.87</td></tr>
+        <tr class="row"><td>7/8/05</td><td>1,211.86</td></tr>
+        <tr class="otherrow"><td>7/11/05</td><td>1,219.44</td></tr>
+        <tr class="row"><td>7/12/05</td><td>1,222.21</td></tr>
+        <tr class="otherrow"><td>7/13/05</td><td>1,223.29</td></tr>
+        <tr class="row"><td>7/14/05</td><td>1,226.50</td></tr>
+        <tr class="otherrow"><td>7/15/05</td><td>1,227.92</td></tr>
+        <tr class="row"><td>7/18/05</td><td>1,221.13</td></tr>
+        <tr class="otherrow"><td>7/19/05</td><td>1,229.35</td></tr>
+        <tr class="row"><td>7/20/05</td><td>1,235.20</td></tr>
+        <tr class="otherrow"><td>7/21/05</td><td>1,227.04</td></tr>
+        <tr class="row"><td>7/22/05</td><td>1,233.68</td></tr>
+        <tr class="otherrow"><td>7/25/05</td><td>1,229.03</td></tr>
+        <tr class="row"><td>7/26/05</td><td>1,231.16</td></tr>
+        <tr class="otherrow"><td>7/27/05</td><td>1,236.79</td></tr>
+        <tr class="row"><td>7/28/05</td><td>1,243.72</td></tr>
+        <tr class="otherrow"><td>7/29/05</td><td>1,234.18</td></tr>
+        <tr class="row"><td>8/1/05</td><td>1,235.35</td></tr>
+        <tr class="otherrow"><td>8/2/05</td><td>1,244.12</td></tr>
+        <tr class="row"><td>8/3/05</td><td>1,245.04</td></tr>
+        <tr class="otherrow"><td>8/4/05</td><td>1,235.86</td></tr>
+        <tr class="row"><td>8/5/05</td><td>1,226.42</td></tr>
+        <tr class="otherrow"><td>8/8/05</td><td>1,223.13</td></tr>
+        <tr class="row"><td>8/9/05</td><td>1,231.38</td></tr>
+        <tr class="otherrow"><td>8/10/05</td><td>1,229.13</td></tr>
+        <tr class="row"><td>8/11/05</td><td>1,237.81</td></tr>
+        <tr class="otherrow"><td>8/12/05</td><td>1,230.39</td></tr>
+        <tr class="row"><td>8/15/05</td><td>1,233.87</td></tr>
+        <tr class="otherrow"><td>8/16/05</td><td>1,219.34</td></tr>
+        </tbody>
+        </table>
+    </div>
+
+    <div class="slide">
+        <img src="img/S-P-500-VALUE_chartbuilder.png" alt="S&amp;P 500">
+    </div>
+
+    <div class="slide">
+        <p><a href="http://www.theguardian.com/news/datablog/2010/oct/01/data-journalism-how-to-guide">
+            Paul Bradshaw's guide to being a data journalist:
+        </a></p>
+
+        <ol>
+            <li>Find data</li>
+            <li>Interrogate data</li>
+            <li>Present data</li>
+            <li>Mashup data</li>
+        </ol>
+
+    </div>
+
+    <div class="slide">
+        Good stories come from good questions.
+    </div>
+
+    <div class="slide">
+        Has the US economy improved over the past decade?
+    </div>
+
+    <div class="slide">
+
+        <p>“In God we trust; all others bring data.”</p>
+
+        <p>― W. Edwards Deming</p>
+    </div>
+
+    <div class="slide">
+        Caveats.
+    </div>
+
+    <div class="slide">
+        <img src="img/heatmap.png" alt="Heatmap" width="90%" class="fit">
+    </div>
+
+    <div class="slide">
+        <img src="img/inigo.jpg" alt="Inigo" width="90%" class="fit">
+    </div>
+
+    <div class="slide">
+        <h2>Examples:</h2>
+
+        <ul>
+            <li><a href="http://www.forbes.com/sites/jeffbercovici/2012/06/06/aaron-sorkin-claims-he-has-no-political-agenda-his-campaign-donations-show-otherwise/">Aaron Sorkin Claims He Has 'No Political Agenda.' His Campaign Donations Show Otherwise.</a></li>
+
+            <li><a href="http://www.tampabay.com/topics/specials/2014/trauma-centers.page">Florida's Trauma Centers</a></li>
+
+            <li><a href="http://www.pbs.org/newshour/spc/news/gulfcoast/">Deepwater Horizon Oil Spill</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
