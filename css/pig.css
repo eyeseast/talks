@@ -7,7 +7,10 @@ body {
   color:#111;
 }
 
-h1, h2, h3, p { margin:0; }
+h1, h2, h3, p { 
+  margin:0;
+  color:#ff1759; 
+}
 
 em, a {
   font-style:normal;
