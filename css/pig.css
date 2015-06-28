@@ -7,9 +7,12 @@ body {
   color:#111;
 }
 
+h1, h2, h3 {
+  color:#ff1759; 
+}
+
 h1, h2, h3, p { 
   margin:0;
-  color:#ff1759; 
 }
 
 em, a {
